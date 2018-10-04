@@ -1,5 +1,5 @@
 {
-    "name": "moxio/composer-svn-export-plugin",
+    "name": "m7sk/composer-svn-export-plugin",
     "type": "composer-plugin",
     "license": "MIT",
     "authors": [
