@@ -27,7 +27,7 @@ class SvnExportDownloader implements DownloaderInterface {
 		$this->io = $io;
 		$this->config = $config;
 		$this->process = $process ?: new ProcessExecutor($io);
-		$this->filesystem = $filesystem ?? new Filesystem($this->process);
+		$this->filesystem = $filesystem ?: new Filesystem($this->process);
 	}
 
 	/**
